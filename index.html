@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elisa & Maria - 40 Años de Amistad y Celebración</title>
+    <!-- Título que se verá -->
+<meta property="og:title" content="Fiesta de Cumple 40 de Elisa & Maria" />
+
+<!-- Descripción -->
+<meta property="og:description" content="Únete a nuestra celebración  del cumpleaños 40. Música, sorpresas y diversión." />
+
+<!-- Imagen que se verá en la miniatura (URL absoluta) -->
+<meta property="og:image" content="https://marianela-185.github.io/cumple40/img/imagen-miniatura.jpg" />
+
+<!-- URL de la página -->
+<meta property="og:url" content="https://marianela-185.github.io/cumple40" />
+
+<!-- Tipo de contenido -->
+<meta property="og:type" content="website" />
+
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -228,7 +243,12 @@
             overflow: hidden;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
         }
-
+        .carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
         .carousel-slide {
             display: none;
             width: 100%;
@@ -241,6 +261,7 @@
             display: block;
             animation: fadeIn 0.8s ease-in-out;
         }
+       
 
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -740,75 +761,93 @@
     </section>
 
     <!-- Photo Carousel -->
-    <section class="carousel-section">
-        <h2 class="section-title">40 Años de Momentos Inolvidables</h2>
-        <div class="carousel-container">
-            <div class="carousel-slide active">
-                <div style="width:100%;height:100%;background:linear-gradient(45deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;text-align:center;padding:40px;">
-                    📸 Foto 1: Infancia compartida<br><small>Los primeros pasos juntas</small>
-                </div>
-                <div class="carousel-caption">Los orígenes de una amistad eterna</div>
-            </div>
-            <div class="carousel-slide">
-                <div style="width:100%;height:100%;background:linear-gradient(45deg, #a8edea 0%, #fed6e3 100%);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;text-align:center;padding:40px;">
-                    📸 Foto 2: Años escolares<br><small>Recreos y secretos compartidos</small>
-                </div>
-                <div class="carousel-caption">Aprendiendo la vida una junto a la otra</div>
-            </div>
-            <div class="carousel-slide">
-                <div style="width:100%;height:100%;background:linear-gradient(45deg, #d299c2 0%, #fef9d7 100%);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;text-align:center;padding:40px;">
-                    📸 Foto 3: Juventud y aventuras<br><small>Viajes y descubrimientos</small>
-                </div>
-                <div class="carousel-caption">Explorando el mundo de la mano</div>
-            </div>
-            <div class="carousel-slide">
-                <div style="width:100%;height:100%;background:linear-gradient(45deg, #89f7fe 0%, #66a6ff 100%);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;text-align:center;padding:40px;">
-                    📸 Foto 4: Momentos de celebración<br><small>Fiestas y logros compartidos</small>
-                </div>
-                <div class="carousel-caption">Cada éxito se celebra doble</div>
-            </div>
-            <div class="carousel-slide">
-                <div style="width:100%;height:100%;background:linear-gradient(45deg, #fddb92 0%, #d1fdff 100%);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;text-align:center;padding:40px;">
-                    📸 Foto 5: Familias unidas<br><small>Cuando la amistad crece</small>
-                </div>
-                <div class="carousel-caption">Nuestros hijos son amigos también</div>
-            </div>
-            <div class="carousel-slide">
-                <div style="width:100%;height:100%;background:linear-gradient(45deg, #ffecd2 0%, #fcb69f 100%);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;text-align:center;padding:40px;">
-                    📸 Foto 6: Risas incontenibles<br><small>Momentos de pura alegría</small>
-                </div>
-                <div class="carousel-caption">La risa es nuestra banda sonora</div>
-            </div>
-            <div class="carousel-slide">
-                <div style="width:100%;height:100%;background:linear-gradient(45deg, #ff8a80 0%, #ffab91 100%);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;text-align:center;padding:40px;">
-                    📸 Foto 7: Apoyo incondicional<br><small>En las buenas y en las malas</small>
-                </div>
-                <div class="carousel-caption">El hombro donde siempre apoyarse</div>
-            </div>
-            <div class="carousel-slide">
-                <div style="width:100%;height:100%;background:linear-gradient(45deg, #c2e9fb 0%, #a1c4fd 100%);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;text-align:center;padding:40px;">
-                    📸 Foto 8: Complicidad total<br><small>Una mirada lo dice todo</small>
-                </div>
-                <div class="carousel-caption">Entendiéndonos sin palabras</div>
-            </div>
-            <div class="carousel-slide">
-                <div style="width:100%;height:100%;background:linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;text-align:center;padding:40px;">
-                    📸 Foto 9: Presente perfecto<br><small>La amistad madura y bella</small>
-                </div>
-                <div class="carousel-caption">Cuarenta años y contando</div>
-            </div>
-            <div class="carousel-slide">
-                <div style="width:100%;height:100%;background:linear-gradient(45deg, #f6d365 0%, #fda085 100%);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;text-align:center;padding:40px;">
-                    📸 Foto 10: Futuro prometedor<br><small>Lo mejor está por venir</small>
-                </div>
-                <div class="carousel-caption">Por otros cuarenta años más juntas</div>
-            </div>
-            
-            <button class="carousel-nav carousel-prev" onclick="changeSlide(-1)">❮</button>
-            <button class="carousel-nav carousel-next" onclick="changeSlide(1)">❯</button>
+     <!-- Photo Carousel -->
+<!-- Photo Carousel -->
+<section class="carousel-section">
+    <h2 class="section-title">40 Años de Momentos Inolvidables</h2>
+    
+    <div class="carousel-container">
+        
+        <!-- SLIDE 1 -->
+        <div class="carousel-slide active">
+            <img src="img/foto1.jpg" 
+                 alt="Elisa y Maria de pequeñas">
+            <div class="carousel-caption">Los orígenes de una amistad eterna</div>
         </div>
-        <div class="carousel-dots" id="carouselDots"></div>
-    </section>
+        
+        <!-- SLIDE 2 -->
+        <div class="carousel-slide">
+            <img src="img/515853258_10229156235426839_2741357316078290161_n.jpg" 
+                 alt="Años escolares">
+            <div class="carousel-caption">Aprendiendo la vida una junto a la otra</div>
+        </div>
+        
+        <!-- SLIDE 3 -->
+        <div class="carousel-slide">
+            <img src="img/imagen-miniatura.jpg" 
+                 alt="Viaje juntas">
+            <div class="carousel-caption">Explorando el mundo de la mano</div>
+        </div>
+        
+        <!-- SLIDE 4 -->
+        <div class="carousel-slide">
+            <img src="img/516037978_10229319180060353_5514923375655377340_n.jpg" 
+                 alt="Celebración">
+            <div class="carousel-caption">Cada éxito se celebra doble</div>
+        </div>
+        
+        <!-- SLIDE 5 -->
+        <div class="carousel-slide">
+            <img src="img/foto5.jpg" 
+                 alt="Familias">
+            <div class="carousel-caption">Nuestros hijos son amigos también</div>
+        </div>
+        
+        <!-- SLIDE 6 -->
+        <div class="carousel-slide">
+            <img src="img/foto6.jpg" 
+                 alt="Risas">
+            <div class="carousel-caption">La risa es nuestra banda sonora</div>
+        </div>
+        
+        <!-- SLIDE 7 -->
+        <div class="carousel-slide">
+            <img src="img/foto7.jpg" 
+                 alt="Apoyo">
+            <div class="carousel-caption">El hombro donde siempre apoyarse</div>
+        </div>
+        
+        <!-- SLIDE 8 -->
+        <div class="carousel-slide">
+            <img src="img/foto8.jpg" 
+                 alt="Complicidad">
+            <div class="carousel-caption">Entendiéndonos sin palabras</div>
+        </div>
+        
+        <!-- SLIDE 9 -->
+        <div class="carousel-slide">
+            <img src="img/foto9.jpg" 
+                 alt="Presente">
+            <div class="carousel-caption">Cuarenta años y contando</div>
+        </div>
+        
+        <!-- SLIDE 10 -->
+        <div class="carousel-slide">
+            <img src="img/foto10.jpg" 
+                 alt="Futuro">
+            <div class="carousel-caption">Por otros cuarenta años más juntas</div>
+        </div>
+        
+        <!-- BOTONES DE NAVEGACIÓN -->
+        <button class="carousel-nav carousel-prev" onclick="changeSlide(-1)">❮</button>
+        <button class="carousel-nav carousel-next" onclick="changeSlide(1)">❯</button>
+        
+    </div>
+    
+    <!-- DOTS INDICADORES -->
+    <div class="carousel-dots" id="carouselDots"></div>
+    
+</section>
 
     <!-- Music Section -->
     <section class="music-section">
